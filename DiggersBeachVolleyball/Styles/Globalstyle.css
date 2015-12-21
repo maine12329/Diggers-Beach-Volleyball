@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#Background {
+	background-image:url(../Images/tessellation.jpg);
+	background-repeat:repeat;
+}
+	
+#Container {
+	background-color: #00419d;
+	margin: auto;
+	margin-top: 50px;
+	padding-top: 20px;
+	width: 900px;
+}
+
+#Banner {
+	background-color: #00419d;
+	width: 100%;
+	float:left;
+	font-family: Impact;
+	font-size: 58px;
+	font-style: bold;
+	font-weight: 100;
+	color: white;
+}
+
+#nav_bar {
+	background-color:#9dc6ff;
+	width: 100%;
+	float: left;
+}
+
+#nav_bar a:hover {
+	font-size:20px;
+}
+
+#nav_bar a:active {
+	color:purple;
+	font-size:20px;
+}
+
+#Maincontent {
+	background-color:#e7f1ff;
+	width: 90%;
+	float: left;
+	padding:5%;
+	font-size:18px;
+}
+
+#Footer {
+	background-color: #00419d;
+	width: 100%;
+	float: left;
+	font-size: 9px;
+	color: white;
+}
+
+.button {
+   display: inline-block;
+   font-size: 32px;
+   font-family: Sans-serif;
+   line-height: 44px;
+   color: rgba(240,0,68,1);
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+   font-style: italic;
+   font-weight: bold;
+   text-shadow: 0px 1px 2px rgba(0,0,0,1)
+}
+.button:hover {
+   color: rgba(138,8,45,1);
+   font-size:40px;
+}
+.button:active {
+   color: rgba(255,0,0,1);
+   font-size:40px;
+}
+
+.line {
+  border-top: 1px solid black;
+}
